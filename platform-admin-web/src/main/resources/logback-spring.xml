@@ -19,7 +19,7 @@
 
     <!--输出到文件-->
     <appender name="file" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <File>${log.path}/eureka.log</File>
+        <File>${log.path}/platform.log</File>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <fileNamePattern>${log.path}/eureka.log.%d{yyyy-MM-dd}.gz</fileNamePattern>
             <maxHistory>15</maxHistory>
